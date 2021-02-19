@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>Github Users || API Practice</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- / bootstrap css-->
+    <link rel="stylesheet" href="css/style.css"> <!-- /main css -->
+</head>
+<body onload="onloadCall()">
+<header class="pt-5">
+    <nav class="navbar bg-custom fixed-top navbar-dark mb-5">
+        <div class="container justify-content-center">
+            <a class="navbar-brand align-self-center" href="#"><img class="" width="100" src="images/logo.png"
+                                                                    alt=""></a>
+            <form class="d-flex ms-sm-auto align-self-center" onsubmit="event.preventDefault()">
+                <input class="form-control me-2 search-input" type="search" placeholder="Search github users"
+                       aria-label="Search">
+                <button class="btn btn-secondary search-button" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <h1 class="text-center text-capitalize main-title pt-6 mb-3">Find github users</h1>
+</header>
+
+<!--users-area-->
+<section class="users-area container">
+</section>
+
+<!--user-details-->
+<section class="user-details container">
+</section>
+
+<!--script-->
+<script src="js/fontawesome.js"></script><!-- fontawesome js-->
+<script src="js/bootstrap.bundle.min.js"></script><!-- bootstrap js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="js/main.js"></script><!-- main js -->
+</body>
+</html>

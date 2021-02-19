@@ -1,0 +1,14 @@
+
+.bg-custom {
+    background: linear-gradient(45deg, #7401ff, #c709fc) !important;
+}
+.icon {
+    font-size: 2rem;
+    padding: 5px 10px;
+}
+.pt-6{
+    padding-top: 6rem !important;
+}
+.bg-custom > .container.justify-content-center {
+    background: transparent;
+}
