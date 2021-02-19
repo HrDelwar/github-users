@@ -12,3 +12,6 @@
 .bg-custom > .container.justify-content-center {
     background: transparent;
 }
+.card-body.d-flex.justify-content-between.bg-secondary.text-white.align-items-center {
+    border-radius: 0 0 5px 5px;
+}
